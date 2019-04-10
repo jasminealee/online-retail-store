@@ -1,0 +1,17 @@
+[debug] [2019-04-10T22:18:13.066Z] ----------------------------------------------------------------------
+[debug] [2019-04-10T22:18:13.068Z] Command:       /usr/local/bin/node /usr/local/bin/firebase open
+[debug] [2019-04-10T22:18:13.068Z] CLI Version:   6.6.0
+[debug] [2019-04-10T22:18:13.068Z] Platform:      darwin
+[debug] [2019-04-10T22:18:13.068Z] Node Version:  v8.2.1
+[debug] [2019-04-10T22:18:13.069Z] Time:          Wed Apr 10 2019 15:18:13 GMT-0700 (PDT)
+[debug] [2019-04-10T22:18:13.069Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-10T22:18:13.076Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-10T22:18:13.076Z] > authorizing via signed-in user
+[debug] [2019-04-10T22:18:13.076Z] [iam] checking project onlineretailstore-552c0 for permissions ["firebase.projects.get"]
+[debug] [2019-04-10T22:18:13.077Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/onlineretailstore-552c0:testIamPermissions  
+
+[debug] [2019-04-10T22:18:13.243Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-10T22:18:13.244Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/onlineretailstore-552c0  
+ 
+[debug] [2019-04-10T22:18:13.509Z] <<< HTTP RESPONSE 200
